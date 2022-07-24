@@ -14,14 +14,13 @@ Run `mvn clean compile`
 
 ### Tests
 
-Run `mvn clean verify`
+Run `mvn clean test`
 
 ### Report
 
-Run `mvn clean install test surefire-report:report`
+Run `mvn clean test surefire-report:report`
 
-- Text report generated in Target->surefire-reports `com.petstore.apitests.PetApiTest.txt`
-- HTML report generated in Target->site `surefire-report.html`
+- Report generated in target/surefire-reports/apitests.PetApiTest/Command line test.html
 
 ### Code overview
 
