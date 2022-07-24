@@ -11,7 +11,7 @@ import lombok.*;
 @NoArgsConstructor
 public class PetDTO
 {
-    private Long id;
+    private long id;
     private String name;
     private CategoryDTO category;
     private List<String> photoUrls;
